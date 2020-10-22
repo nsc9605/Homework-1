@@ -45,8 +45,6 @@ header nav ul li {
     margin-left: 25px;
     list-style-type: none;
 }
-/*changed anywhere div was 
-used to nav*/
 
 a {
     color: #ffffff;
@@ -83,9 +81,13 @@ p {
     margin-top: 20px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+/*Consolildated each section title into class selector
+apply all.
+Also shortened the names of the class to the key word 
+that way takes up less room and is easier to see*/
+.search,
+.online,
+.social {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,28 +95,25 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 } 
-/*Consolildated each section title into class selector
-apply all*/
 
+
+/*Consilidated the content images into one element*/
 .content img {
     max-height: 200px;
 }
-/*Consilidated 
-"search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img" into one content img
-as they have same*/
 
+/*Consolidated the h2 into content element 
+as they all have the same*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*Consolidated "search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2" into one content h2*/
+
 
 .benefits {
     margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -122,38 +121,40 @@ as they have same*/
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 32px;
+    margin-bottom: 20pxpx;
     color: #ffffff;
 }
 
+/*Consolidated all image class into
+one element with same information*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*Consolidated all image class into
-one element with same information*/
 
+/*consolidated all h3 class into one main 
+element and added a margin-top:"" class*/
 .benefits h3 {
     margin-top: 15px;
     margin-bottom: 10px;
     text-align: center;
 }
-/*consolidated all h3 class into one main 
-element and added a margin-top:"" class*/
 
+/*assigned the sementic HTML for footer as its
+own element
+*/
 footer {
     padding: 30x;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*assigned the sementic HTML for footer as its
-own element
-*/
+
+/*changed to element so these classes
+will be assigned in the h2 of the footer*/
 footer h2 {
     font-size: 20px;
     display: inline-block;
 }
-/*changed to element so these classes
-will be assigned in the h2 of the footer*/
+
