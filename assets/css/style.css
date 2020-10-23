@@ -15,10 +15,10 @@ header {
     color: #ffffff;
 } 
 
-/*took away the class selector making 
+/* Took away the class selector making 
 it an element that way anytime there is a 
 header i dont have to write the class selector.
-Also separated the h1 into its own element*/
+Also separated the h1 into its own element */
 
 h1 {
     display: inline-block;
@@ -37,8 +37,8 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*changed div to nav and created its own 
-element to separate it from the header*/
+/* Changed div to nav and created its own 
+element to separate it from the header */
 
 header nav ul li {
     display: inline-block;
@@ -73,19 +73,19 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Adjusted the margin to be more even from top and bottom */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-/*Consolildated each section title into class selector
-apply all.
-Also shortened the names of the class to the key word 
-that way takes up less room and is easier to see*/
+/* Consolildated each section title into class selector
+    apply all.
+    Also shortened the names of the class to the key word 
+    that way takes up less room and is easier to see */
 .search,
 .online,
 .social {
@@ -98,23 +98,25 @@ that way takes up less room and is easier to see*/
 } 
 
 
-/*Consilidated the content images into one element*/
+/* Consilidated the content images into one element */
 .content img {
     max-height: 200px;
 }
 
-/*Consolidated the h2 into content element 
-as they all have the same*/
+/* Consolidated the h2 into content element 
+    as they all have the same */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/* Adjusted the left, top and bottom margin to align with 
+    the .contents section of the page */
 .benefits {
     margin-right: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 20px;
     clear: both;
     float: right;
@@ -122,29 +124,27 @@ as they all have the same*/
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Consolidated all image class into
-one element with same information*/
+/* Consolidated all image class into
+    one element with same information */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*consolidated all h3 class into one main 
-element and added a margin-top:"" class*/
+/* Consolidated all h3 class into one main
+   element and added a margin-top:"" class */
 .benefits h3 {
     margin-top: 15px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*assigned the sementic HTML for footer as its
-own element
-*/
+/* Assigned the sementic HTML for footer as its
+    own element */
 footer {
     padding: 30x;
     clear: both;
@@ -152,8 +152,8 @@ footer {
     text-align: center;
 }
 
-/*changed to element so these classes
-will be assigned in the h2 of the footer*/
+/* Changed to element so these classes
+    will be assigned in the h2 of the footer */
 footer h2 {
     font-size: 20px;
     display: inline-block;
